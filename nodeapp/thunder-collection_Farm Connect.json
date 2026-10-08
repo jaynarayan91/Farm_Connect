@@ -1,0 +1,273 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Farm Connect",
+    "dateExported": "2026-04-25T09:08:23.975Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d94d52bf-c278-45a1-8a16-5cf60c55e671",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "postUser",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/user/signup",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2026-04-25T09:02:50.969Z",
+            "modified": "2026-04-25T09:02:50.969Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"test44\",\n  \"email\": \"test3@example.com\",\n  \"mobileNumber\": \"9234567899\",\n  \"password\": \"Hello@1123\",\n  \"userRole\": \"user\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3cf1a119-72e2-41c2-aa2e-64a926422c77",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getAllUsers",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/getAllUsers",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2026-04-25T09:02:50.970Z",
+            "modified": "2026-04-25T09:02:50.970Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "90ceba66-f6a4-457f-afed-734233f7ecda",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "login",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/user/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2026-04-25T09:02:50.971Z",
+            "modified": "2026-04-25T09:02:50.971Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"email\": \"test@example.com\",\n  \"password\": \"vinay@123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f949febe-6e00-407a-a246-07216cffbadc",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getUserById",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/user/getUserById/69eba75a6ae385e6248d6566",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-04-25T09:02:50.972Z",
+            "modified": "2026-04-25T09:02:50.972Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0d2678a1-039a-4a5b-b2ac-cb0c23aa9ad9",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "resetPassword",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/user/reset-password",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2026-04-25T09:02:50.973Z",
+            "modified": "2026-04-25T09:02:50.973Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"test\",\n  \"email\": \"test@example.com\",\n  \"mobileNumber\": \"1234567890\",\n  \"password\": \"vinay@12356799\",\n  \"userRole\": \"user\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4dd8d733-1cc2-4f09-9e97-dfd8cbc8a823",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "addLiveStock",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2026-04-25T09:02:50.974Z",
+            "modified": "2026-04-25T09:02:50.974Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Cow A\",\r\n  \"species\": \"Cattle\",\r\n  \"age\": 4,\r\n  \"breed\": \"Holstein Friesian\",\r\n  \"healthCondition\": \"Healthy\",\r\n  \"location\": \"Bengaluru Farm Zone 3\",\r\n  \"vaccinationStatus\": \"Fully Vaccinated\",\r\n  \"attachment\": \"cow-a-health-report.pdf\",\r\n  \"userId\": \"661f1c9b8b9e4a2f9c123456\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7a719d2e-99b7-4450-bbab-98950573c6b8",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getLiveStock",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2026-04-25T09:02:50.976Z",
+            "modified": "2026-04-25T09:02:50.976Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "71d42284-c00a-4d44-84ab-3549d457ca8f",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getLiveStockUserById",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock/user/661f1c9b8b9e4a2f9c123456",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2026-04-25T09:02:50.977Z",
+            "modified": "2026-04-25T09:02:50.977Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "28a54ba4-459b-409f-b157-12cad626a2a4",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getLivestockById",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock/69ec668e1e2648c1ddf66e6b",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2026-04-25T09:02:50.978Z",
+            "modified": "2026-04-25T09:02:50.978Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b8a2f377-542a-4951-87b8-3453fc23c2e6",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "updateLivestock",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock/69ec668e1e2648c1ddf66e6b",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2026-04-25T09:02:50.979Z",
+            "modified": "2026-04-25T09:02:50.979Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Cow A updated\",\r\n  \"species\": \"Cattle\",\r\n  \"age\": 4,\r\n  \"breed\": \"Holstein Friesian\",\r\n  \"healthCondition\": \"Healthy\",\r\n  \"location\": \"Bengaluru Farm Zone 3\",\r\n  \"vaccinationStatus\": \"Fully Vaccinated\",\r\n  \"attachment\": \"cow-a-health-report.pdf\",\r\n  \"userId\": \"661f1c9b8b9e4a2f9c123456\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bf4408c3-cafe-40d7-848d-ce39d0a0b848",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "deleteLivestock",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/livestock/69ec67bb55430df8e8ef9369",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2026-04-25T09:02:50.980Z",
+            "modified": "2026-04-25T09:02:50.980Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Cow A updated\",\n  \"species\": \"Cattle\",\n  \"age\": 4,\n  \"breed\": \"Holstein Friesian\",\n  \"healthCondition\": \"Healthy\",\n  \"location\": \"Bengaluru Farm Zone 3\",\n  \"vaccinationStatus\": \"Fully Vaccinated\",\n  \"attachment\": \"cow-a-health-report.pdf\",\n  \"userId\": \"661f1c9b8b9e4a2f9c123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "48d5cf75-fee6-4057-bf13-1eff04803d75",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "postFeed",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/feeds",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2026-04-25T09:02:57.356Z",
+            "modified": "2026-04-25T09:06:10.225Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"feedName\": \" Feed\",\r\n  \"type\": \"Pellets\",\r\n  \"description\": \"High-protein feed  for dairy cows\",\r\n  \"unit\": \"kg\",\r\n  \"pricePerUnit\": \"522.75\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c0853973-61b1-4a85-9b84-fb3cffdc0147",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getFeed",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/feeds",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2026-04-25T09:04:28.740Z",
+            "modified": "2026-04-25T09:04:53.973Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7f3c9045-248a-48bc-b0fd-9ee9aa9fd486",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "getFeedById",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/feeds/69ec83986f06f38d7fb87dfb",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2026-04-25T09:04:57.432Z",
+            "modified": "2026-04-25T09:05:31.778Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e21a7064-ea87-4e16-ad15-f958701f27fa",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "UpdateFeed",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/feeds/69ec84016f06f38d7fb87dff",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2026-04-25T09:05:35.120Z",
+            "modified": "2026-04-25T09:07:17.877Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"feedName\": \" Feed updateddd\",\r\n  \"type\": \"Pellets\",\r\n  \"description\": \"High-protein feed  for dairy cows\",\r\n  \"unit\": \"kg\",\r\n  \"pricePerUnit\": \"522.75\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fd1e669f-b805-4914-ac82-c0e3ff2d7822",
+            "colId": "1a839511-5f79-425f-91f2-86b7f80f12ee",
+            "containerId": "",
+            "name": "deleteFeed",
+            "url": "https://8080-fffcdcccddeefadccceeeabbcadcbedb.premiumproject.examly.io/api/feeds/69ec83986f06f38d7fb87dfb",
+            "method": "DELETE",
+            "sortNum": 170000,
+            "created": "2026-04-25T09:07:29.649Z",
+            "modified": "2026-04-25T09:07:57.492Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

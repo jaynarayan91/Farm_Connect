@@ -1,0 +1,152 @@
+# ==================================
+# MERN Monorepo (.gitignore) Updated
+# Structure:
+# root/
+# ├── nodeapp/
+# └── reactapp/
+# ==================================
+ 
+# ========================
+# Dependencies
+# ========================
+node_modules/
+nodeapp/node_modules/
+reactapp/node_modules/
+jspm_packages/
+ 
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*
+!.env.example
+nodeapp/.env
+reactapp/.env
+ 
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+ 
+# ========================
+# Runtime Data
+# ========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+ 
+# ========================
+# Testing / Coverage
+# ========================
+coverage/
+.nyc_output/
+ 
+# Node Tests
+nodeapp/test/
+nodeapp/tests/
+nodeapp/__tests__/
+ 
+# React Tests
+reactapp/src/test/
+reactapp/src/tests/
+reactapp/src/__tests__/
+ 
+# Jest
+jest/
+.jest/
+jest-cache/
+jest.config.js
+jest.setup.js
+ 
+# ========================
+# Build Folders
+# ========================
+build/
+dist/
+out/
+ 
+# React Build
+reactapp/build/
+reactapp/dist/
+ 
+# Vite / Next
+.next/
+.vite/
+.vercel/
+ 
+# ========================
+# Cache Files
+# ========================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+ 
+# ========================
+# Uploads / Temp Files
+# ========================
+uploads/
+nodeapp/uploads/
+tmp/
+temp/
+ 
+# ========================
+# Database Files
+# ========================
+*.sqlite
+*.db
+ 
+# ========================
+# IDE / Editor Files
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+ 
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+ 
+# ========================
+# Lock Files (optional)
+# keep only if needed
+# ========================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+ 
+# ========================
+# Misc
+# ========================
+*.tgz
+*.bak
+*.zip
+ 
+# ========================
+# React Native / Expo
+# ========================
+.expo/
+.expo-shared/
+ 
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+ 
+# ========================
+# Firebase
+# ========================
+.firebase/
